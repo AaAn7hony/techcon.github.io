@@ -16,6 +16,23 @@ header{
     margin:0px;
 }
 
+header a{
+    float:right;
+    display: block;
+    color:#ffffff;
+    border:none;
+    border-radius: 100px;
+    background-color: black;
+    padding:10px;
+    font-size:14px;
+    margin:15px;
+    margin-top: 25px;
+    text-decoration: none;
+    text-align: center;
+    width:110px;
+    font-weight:bold;
+}
+
 .par{
     text-align: right;
 }
@@ -23,15 +40,17 @@ header{
 #q{
     text-align: center;
     font-weight: lighter;
+    font-size:48px;
 }
 
 section h1{
     color:white;
-    font-size: 48px;
+    font-size: 72px;
     font-weight: bold;
     text-align: left;
     background-color: rgba(0,0,0,0);
-    padding:20px;
+    padding:10px;
+    line-height: 50%;
 }
 
 section p{
@@ -45,24 +64,10 @@ section p{
 header img{
     float:left;
     background-color: black;
-    width:50px;
+    width:38px;
     margin:25px;
 }
-header a{
-    float:right;
-    display: block;
-    color:#ffffff;
-    border:none;
-    border-radius: 100px;
-    background-color: black;
-    padding:10px;
-    margin:20px;
-    margin-top: 35px;
-    text-decoration: none;
-    text-align: center;
-    width:110px;
-    font-weight: bold;
-}
+
 
 section a{
     float:left;
@@ -85,14 +90,12 @@ section a:hover{
 
 header a:hover{
     background: #353535;
-    color:rgb(187, 255, 244);
+    color:rgb(255, 255, 255);
     cursor:pointer;
 }
 
 section{
-
-    margin:10px;
-    padding:80px 20px;
+    padding:120px 10px;
 }
 
 footer{
@@ -115,4 +118,9 @@ footer{
 
 #par{
     text-align: right;
+}
+
+#inicio{
+    margin-top:80px;
+    padding:20px;
 }

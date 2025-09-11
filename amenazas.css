@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    font-family: Arial;
+}
+
+*{
+    background-color: rgb(9, 10, 14);
+}
+
+header{
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    background: #000000;
+    overflow: hidden;
+    z-index: 1000;
+    margin:0px;
+}
+
+header a{
+    float:right;
+    display: block;
+    color:#ffffff;
+    border:none;
+    border-radius: 100px;
+    background-color: black;
+    padding:10px;
+    font-size:14px;
+    margin:15px;
+    margin-top: 25px;
+    text-decoration: none;
+    text-align: center;
+    width:110px;
+    font-weight:bold;
+}
+
+.par{
+    text-align: right;
+}
+
+#q{
+    text-align: center;
+    font-weight: lighter;
+    font-size:48px;
+}
+
+section h1{
+    color:white;
+    font-size: 72px;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgba(0,0,0,0);
+    padding:10px;
+
+}
+
+section p{
+    color:white;
+    text-align: left;
+    background-color: rgba(0,0,0,0);
+    padding:20px;
+    font-size: 18px;
+}
+
+header img{
+    float:left;
+    background-color: black;
+    width:38px;
+    margin:25px;
+}
+
+
+section a{
+    float:left;
+    display: block;
+    color:#ffffff;
+    border:none;
+    border-radius: 100px;
+    background-color: rgb(32, 32, 32);
+    padding:15px;
+    margin:20px;
+    text-decoration: none;
+    text-align: center;
+    width:150px;
+}
+
+section a:hover{
+    background-color: rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+}
+
+header a:hover{
+    background: #353535;
+    color:rgb(255, 255, 255);
+    cursor:pointer;
+}
+
+section{
+    padding:120px 10px;
+}
+
+footer{
+    top: 0; left: 0; right: 0;
+    background-color: #000000;
+    padding:30px;
+    color:gray;
+    text-align: center;
+}
+
+#amenazas{
+    background-image:url(img/bg_amenazas.png);
+    background-size: cover;
+}
+
+#phishing{
+    background-image: url(img/bg_phishing.png); 
+    background-size: cover;
+}
+
+#par{
+    text-align: right;
+}
+
+#inicio{
+    margin-top:80px;
+    padding:20px;
+}

@@ -1,10 +1,17 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     margin: 0;
     font-family: Arial;
+    height:300vh;
 }
 
 *{
     background-color: rgb(9, 10, 14);
+    margin-left:20px;
+    margin-right:20px;
 }
 
 header{
@@ -26,15 +33,20 @@ header a{
     padding:10px;
     font-size:14px;
     margin:15px;
-    margin-top: 25px;
+    margin-top: 38px;
     text-decoration: none;
     text-align: center;
     width:110px;
     font-weight:bold;
 }
 
-.par{
-    text-align: right;
+#icon{
+    float:left;
+    margin:0px;
+}
+
+#icon:hover{
+    background-color:black;
 }
 
 #q{
@@ -50,7 +62,6 @@ section h1{
     text-align: center;
     background-color: rgba(0,0,0,0);
     padding:10px;
-
 }
 
 section p{
@@ -64,7 +75,7 @@ section p{
 header img{
     float:left;
     background-color: black;
-    width:38px;
+    width:40px;
     margin:25px;
 }
 
@@ -104,6 +115,8 @@ footer{
     padding:30px;
     color:gray;
     text-align: center;
+    margin-left:0px;
+    margin-right:0px;
 }
 
 #amenazas{

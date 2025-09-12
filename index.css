@@ -1,10 +1,16 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     margin: 0;
     font-family: Arial;
 }
 
 *{
-    background-color: rgb(9, 10, 14);
+    background-color: rgb(5, 5, 5);
+    margin-right:20px;
+    margin-left:20px;
 }
 
 header{
@@ -26,15 +32,20 @@ header a{
     padding:10px;
     font-size:14px;
     margin:15px;
-    margin-top: 25px;
+    margin-top: 38px;
     text-decoration: none;
     text-align: center;
     width:110px;
     font-weight:bold;
 }
 
-.par{
-    text-align: right;
+#icon{
+    float:left;
+    margin:0px;
+}
+
+#icon:hover{
+    background-color:black;
 }
 
 #q{
@@ -50,7 +61,6 @@ section h1{
     text-align: left;
     background-color: rgba(0,0,0,0);
     padding:10px;
-    line-height: 50%;
 }
 
 section p{
@@ -64,7 +74,7 @@ section p{
 header img{
     float:left;
     background-color: black;
-    width:38px;
+    width:40px;
     margin:25px;
 }
 
@@ -101,9 +111,11 @@ section{
 footer{
     top: 0; left: 0; right: 0;
     background-color: #000000;
-    padding:30px;
+    padding:100px;
     color:gray;
     text-align: center;
+    margin-left:0px;
+    margin-right:0px;
 }
 
 #amenazas{
@@ -114,13 +126,28 @@ footer{
 #phishing{
     background-image: url(img/bg_phishing.png); 
     background-size: cover;
+    background-position: 5px;
 }
 
 #par{
     text-align: right;
 }
 
+#par_button{
+    float:right;
+}
+
 #inicio{
     margin-top:80px;
     padding:20px;
+}
+
+#aute{
+    background-size:cover;
+    background-image: url(img/bg_aute.png);
+}
+
+#monitoreo{
+    background-image:url(img/bg_monitoreo.png);
+    background-size: cover;
 }

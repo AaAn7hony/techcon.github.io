@@ -40,6 +40,15 @@ header a{
     font-weight:bold;
 }
 
+article{
+    background-color: rgb(18, 17, 39);
+    border-radius: 50px;
+    box-sizing: border-box;
+    padding: 2px;
+    margin:15px;
+    width:50%;
+}
+
 #icon{
     float:left;
     margin:0px;
@@ -55,7 +64,7 @@ header a{
     font-size:48px;
 }
 
-section h1{
+section h2{
     color:white;
     font-size: 72px;
     font-weight: bold;
@@ -63,6 +72,16 @@ section h1{
     background-color: rgba(0,0,0,0);
     padding:10px;
 }
+
+section h1{
+    color:white;
+    font-size: 26px;
+    font-weight: lighter;
+    text-align: center;
+    background-color: rgba(0,0,0,0);
+    padding:10px;
+}
+
 
 section p{
     color:white;

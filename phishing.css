@@ -148,15 +148,6 @@ footer{
     margin-right:0px;
 }
 
-#amenazas{
-    background-image:url(img/bg_amenazas.png);
-    background-size: cover;
-}
-
-#phishing{
-    background-image: url(img/bg_phishing.png); 
-    background-size: cover;
-}
 
 #par{
     text-align: right;

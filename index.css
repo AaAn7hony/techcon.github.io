@@ -8,7 +8,7 @@ body{
 }
 
 *{
-    background-color: rgb(5, 5, 5);
+    background-color: rgb(10, 10, 10);
     margin-right:20px;
     margin-left:20px;
 }
@@ -31,8 +31,8 @@ header a{
     background-color: black;
     padding:10px;
     font-size:14px;
-    margin:15px;
-    margin-top: 38px;
+    margin:10px;
+    margin-top: 28px;
     text-decoration: none;
     text-align: center;
     width:110px;
@@ -41,7 +41,9 @@ header a{
 
 #icon{
     float:left;
+    margin-top:0px;
     margin:0px;
+    padding:0px;
 }
 
 #icon:hover{
@@ -60,14 +62,13 @@ section h1{
     font-weight: bold;
     text-align: left;
     background-color: rgba(0,0,0,0);
-    padding:10px;
+
 }
 
 section p{
     color:white;
     text-align: left;
     background-color: rgba(0,0,0,0);
-    padding:20px;
     font-size: 20px;
 }
 
@@ -99,13 +100,14 @@ section a:hover{
 }
 
 header a:hover{
-    background: #353535;
+    background: #1b1b1b;
     color:rgb(255, 255, 255);
     cursor:pointer;
 }
 
 section{
-    padding:120px 10px;
+    padding:150px 5%;
+    margin:3%;
 }
 
 footer{
@@ -129,16 +131,8 @@ footer{
     background-position: 5px;
 }
 
-#par{
-    text-align: right;
-}
-
-#par_button{
-    float:right;
-}
-
 #inicio{
-    margin-top:80px;
+    margin-top:120px;
     padding:20px;
 }
 

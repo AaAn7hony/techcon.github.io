@@ -68,6 +68,13 @@ section{
     padding:100px 5%;
     margin:3%;
     height: 300vh;
+    margin-bottom: 2060px;
+    color:white;
+    
+    background-color: rgba(0,0,0,0);
+    padding:20px;
+    font-size: 20px;
+    white-space: pre-line;
 }
 section h1{
     color:white;
@@ -110,6 +117,29 @@ section a:hover{
     color:rgb(0, 0, 0);
 }
 
+.u{
+    text-align: center;
+
+
+}
+.d, .f, .l, .p{
+    text-align: left;
+
+}
+
+
+
+
+.v, .a{
+    text-align: justify;
+}
+.vt, .vt2, .img2{
+    width: 50%;
+}
+.cert{
+    width: 20%;
+}
+
 article{
     background-color: rgb(18, 17, 39);
     border-radius: 50px;
@@ -125,18 +155,6 @@ article h1{
     font-family:Verdana;
 }
 
-#par{
-    float:right;
-}
-
-#par{
-    text-align: right;
-}
-
-#inicio{
-    margin-top:50px;
-    padding:20px;
-}
 
 footer{
     top: 0; left: 0; right: 0;

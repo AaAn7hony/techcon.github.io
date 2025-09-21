@@ -147,3 +147,64 @@ footer{
     margin-left:0px;
     margin-right:0px;
 }
+
+#aute h1{
+position: absolute;
+left: 30%;
+top: 10%;
+}
+
+
+.cuadro1{
+    position: absolute;
+  
+    border: 16px solid rgb(6, 6, 124);
+    border-radius: 15px;
+    right: 60%;
+    width: 40%;
+    height: 400px;
+    top: 50%;
+
+}
+
+.cuadro2{
+     
+    border: 16px solid rgb(6, 6, 124);
+    border-radius: 15px;
+    float: left;
+    position: absolute;
+    right: 15%;
+    width: 40%;
+    height: 400px;
+    top: 50%;
+}
+
+.cuadro3{
+
+    border: 16px solid rgb(6, 6, 124);
+    border-radius: 15px;
+    position: absolute;
+    overflow: hidden;
+    left: 90%;
+    width: 40%;
+    height: 400px;
+    top: 50%;
+}
+
+.cuadro1 p{
+text-align: justify;
+
+font-family: sans-serif;
+}
+
+.cuadro2 p{
+text-align: justify;
+
+font-family: sans-serif;
+}
+
+.cuadro3 p{
+text-align: justify;
+
+font-family: sans-serif;
+}

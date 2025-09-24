@@ -78,7 +78,7 @@ section a:hover{
 article{
     background-color: rgb(18, 17, 39);
     border-radius: 35px;
-    padding:2px;
+    padding:5px;
     margin:15px;
     margin-left:2%;
     width:100%;
@@ -86,13 +86,14 @@ article{
 }
 article h1{
     font-size:32px;
-    margin-left:2%;
+    margin-left:3%;
 }
 article p{
     width:80%;
-    margin-left:2%;
+    margin-left:3%;
     text-align: justify;
     font-size:18px;
+    margin-bottom:2%;
 }
 
 #pasos{

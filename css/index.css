@@ -70,11 +70,15 @@ section a:hover{
 #amenazas{
     background-image:url(../img/bg_amenazas.png);
     background-size: cover;
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: darken;
 }
 
 #phishing{
     background-image: url(../img/bg_phishing.png); 
     background-size: cover;
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: darken;
     background-position: 5px;
 }
 
@@ -86,9 +90,13 @@ section a:hover{
 #aute{
     background-size:cover;
     background-image: url(../img/bg_aute.png);
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: darken;
 }
 
 #monitoreo{
-    background-image:url(https://i0.wp.com/tutasec.com/wp-content/uploads/2021/08/computer-security-technology-M9TUCZN-1920.jpg?fit=1920%2C1080&ssl=1);
+    background-image:url(../img/bg_monitoreo.webp);
     background-size: cover;
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: darken;
 }

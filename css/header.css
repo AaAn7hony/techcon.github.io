@@ -1,0 +1,88 @@
+header{
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    background: rgba(0,0,0);
+    background-color: black;
+    overflow: hidden;
+    z-index: 1000;
+    margin:0px;
+    font-family:arial;
+    transition: background-color 0.3s, opacity 0.3s ease;
+    margin:0px;
+    border-radius: 00px;
+}
+
+header.scroll{
+    opacity:50%;
+}
+
+header a{
+    float:right;
+    display: block;
+    color:#ffffff;
+    border:none;
+    border-radius: 100px;
+    background-color: black;
+    padding:10px;
+    font-size:14px;
+    margin:10px;
+    margin-top: 28px;
+    text-decoration: none;
+    text-align: center;
+    width:130px;
+    font-weight:bold;
+}
+
+header a:hover{
+    background: #1b1b1b;
+    color:rgb(255, 255, 255);
+    cursor:pointer;
+}
+
+header img{
+    float:left;
+    background-color: black;
+    width:40px;
+    margin:25px;
+}
+
+.fix a{
+    margin:0;
+}
+.fix{
+    position: fixed;
+    left: 25; right: 0; bottom:2px;
+    background: #000000;
+    overflow: hidden;
+    z-index: 1000;
+    margin-bottom:20px;
+    margin-right:20px !important;
+    text-align: right;
+    font-family:Arial;
+    font-weight: bold;
+    width:90px;
+}
+
+.fix img{
+    margin:0;
+    right:82px;
+    bottom:34px;
+    width:25px;
+    background-color: rgba(0,0,0,0);
+}
+
+.fix:hover{
+    color:white;
+    background-color: rgb(41, 41, 41);
+}
+
+#icon{
+    float:left;
+    margin-top:0px;
+    margin:0px;
+    padding:0px;
+}
+
+#icon:hover{
+    background-color:black;
+}

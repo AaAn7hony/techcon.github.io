@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio - TECH-CON</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/header.css">
     <link rel="icon" href="img/techcon.png" type="image/x-icon">
-
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=block" />
 
 </head>
 <body>
-    <header>
+    <header id="header">
         <a id="icon" href=""><img src="img/techcon.png" alt=""></a>
         <a href="monitoreo.html">Monitoreo</a>
         <a href="aute.html">Autenticación</a>
@@ -22,12 +22,15 @@
 
     <section id="inicio">
         <h1 id="q">¿Qué deseas aprender?</h1>
+
+        <a href="enlaces.html" class="fix"><img src="img/link_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" class="fix">Enlaces</a>
+
     </section>
 
     <section id="amenazas">
-        <h1>Amenazas</h1>
+        <h1>Amenazas en la web y cómo prevenirlas</h1>
         <p>El malware es software malicioso diseñado para dañar, interrumpir o tomar el control de sistemas informáticos, redes y dispositivos sin el consentimiento del usuario.</p>
-        <a href="amenazas.html">Visitar Amenazas</a>
+        <a href="amenazas.html">Aprende más</a>
 
     </section>
 
@@ -38,18 +41,33 @@
     </section>
     
     <section id="aute">
-        <h1>Autenticación</h1>
+        <h1>Contraseñas y autenticación segura</h1>
         <p>La autenticación es el proceso de verificar la identidad de un usuario, sistema o dispositivo para confirmar que es quien dice ser antes de permitirle acceder a un recurso o sistema digital</p>
         <a href="aute.html">Visitar Autenticación</a>
     </section>
 
     <section id="monitoreo">
-        <h1>Monitoreo</h1>
+        <h1>Monitoreo, análisis y elección de antivirus</h1>
         <p>El monitoreo en informática es el proceso continuo de supervisar, observar y registrar el estado y rendimiento de los sistemas, redes, hardware y aplicaciones para detectar problemas, garantizar la seguridad, optimizar la eficiencia y cumplir con normativas</p>
         <a href="monitoreo.html" id="par_button">Visitar Monitoreo</a>
     </section>
 
-    <footer>TECH-CON<br>© 3° Bachillerato Técnico
+
+    <footer>
+        <p>© 3º Bachillerato Técnico - Todos los derechos reservados</p>
+        <div class="footer-links">
+            <a href="index.html">Inicio</a>
+            <a href="amenazas.html">Amenazas</a>
+            <a href="phishing.html">Phishing</a>
+            <a href="aute.html">Autenticación</a>
+            <a href="monitoreo.html">Monitoreo</a>
+            <a href="enlaces.html">Enlaces</a>
+
+
+        </div>
+        
     </footer>
+
 </body>
+<script src="css/script.js"></script>
 </html>

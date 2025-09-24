@@ -1,0 +1,94 @@
+*{
+    background-color: rgb(6, 6, 14);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: productsans;
+    src: url(../fonts/ProductSans-Light.ttf);
+}
+
+body{
+    margin: 0;
+    font-family:productsans, arial;
+}
+
+
+#q{
+    text-align: center;
+    font-weight: lighter;
+    font-size:48px;
+}
+
+section{
+    padding:120px 10%;
+    margin:2%;
+    border-radius: 20px;
+}
+
+section h1{
+    color:white;
+    font-size: 48px;
+    margin-top:0;
+    font-weight: bold;
+    text-align: left;
+    background-color: rgba(0,0,0,0);
+    text-shadow: 0px, 2px, 5px, white;
+    text-shadow: 0px 0px 6px rgb(0, 0, 0);
+
+}
+
+section p{
+    color:white;
+    text-align: left;
+    background-color: rgba(0,0,0,0);
+    font-size: 20px;
+    text-shadow: 0px 0px 6px rgb(0, 0, 0);
+}
+
+section a{
+    float:left;
+    display: block;
+    color:#ffffff;
+    border:none;
+    border-radius: 100px;
+    background-color: rgb(32, 32, 32);
+    padding:15px;
+    margin-top:30px;
+    text-decoration: none;
+    text-align: center;
+    width:150px;
+}
+
+section a:hover{
+    background-color: rgb(41, 41, 41);
+}
+
+#amenazas{
+    background-image:url(../img/bg_amenazas.png);
+    background-size: cover;
+}
+
+#phishing{
+    background-image: url(../img/bg_phishing.png); 
+    background-size: cover;
+    background-position: 5px;
+}
+
+#inicio{
+    margin-top:150px;
+    padding:20px;
+}
+
+#aute{
+    background-size:cover;
+    background-image: url(../img/bg_aute.png);
+}
+
+#monitoreo{
+    background-image:url(https://i0.wp.com/tutasec.com/wp-content/uploads/2021/08/computer-security-technology-M9TUCZN-1920.jpg?fit=1920%2C1080&ssl=1);
+    background-size: cover;
+}

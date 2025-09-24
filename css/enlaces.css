@@ -1,0 +1,120 @@
+*{
+    background-color: rgb(6, 6, 14);
+
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: productsans;
+    src: url(../fonts/ProductSans-Light.ttf);
+}
+
+body{
+    margin: 0;
+    font-family: productsans;
+    height:300vh;
+    color:rgb(211, 211, 211);
+}
+
+#q{
+    text-align: center;
+    font-weight: lighter;
+    font-size:48px;
+}
+
+#inicio{
+    margin-top:120px;
+    padding:20px;
+}
+
+section{
+    padding:0px 10%;
+    margin:5%;
+}
+
+#banner{
+    width:100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+section h1{
+    color:rgb(211, 211, 211);
+    font-size: 42px;
+    text-align: left;
+    background-color: rgba(0,0,0,0);
+    padding:0px;
+}
+section h2{
+    color:rgb(211, 211, 211);
+    font-size: 36px;
+    margin-left:2%;
+    font-weight: bold;
+    text-align: left;
+    background-color: rgba(0,0,0,0);
+    padding:0px;
+}
+section p{
+    color:rgb(211, 211, 211);
+    text-align: left;
+    background-color: rgba(0,0,0,0);
+    margin-bottom: 5%;
+    font-size: 20px;
+    white-space: pre-line;
+    text-align: justify;
+}
+section a{
+    float:left;
+    display: block;
+    color:#ffffff;
+    border:none;
+    border-radius: 100px;
+    background-color: rgb(32, 32, 32);
+    padding:15px;
+    margin:20px;
+    text-decoration: none;
+    text-align: left;
+    width:150px;
+}
+section a:hover{
+    background-color: rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+}
+
+article{
+    background-color: rgb(18, 17, 39);
+    border-radius: 35px;
+    padding:2px;
+    margin:15px;
+    margin-left:2%;
+    width:100%;
+    text-align: center;
+}
+article h1{
+    font-size:32px;
+    margin-left:2%;
+}
+article p{
+    width:80%;
+    margin-left:2%;
+    text-align: justify;
+    font-size:18px;
+}
+
+#pasos{
+    padding:0%;
+}
+
+#pasos p{
+    margin-left:2%;
+}
+
+
+
+
+
+

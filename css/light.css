@@ -1,0 +1,55 @@
+
+/*
+
+Sé que no es lo más eficiente del mundo hacer esto pero me dio pereza investigar, un saludo
+
+*/
+
+body header a{
+    transition: background-color 0.3s, opacity 0.3s ease;
+}
+
+body.light header,
+body.light footer,
+body.light main,
+body.light .card,
+body.light a,
+body.light #icon:hover,
+body.light section,
+body.light section p,
+body.light section h1,
+body.light section h2,
+body.light #q,
+body.light #inicio,
+body.light{
+    background-color: rgb(255, 255, 255);
+    color: rgba(50,50,50);
+    text-shadow: none;
+}
+
+body.light #no h1,
+body.light #no p{
+    color:white;
+    background-color: rgba(0,0,0,0);
+    text-shadow: none;
+}
+
+body.light #amenazas{
+    background-color: white;
+}
+
+body.light article h1,
+body.light article p{
+    background-color: rgba(0,0,0,0);
+}
+
+body.light section article{
+    background-color: rgb(222, 222, 240);
+}
+body.light #icon img{
+    filter:brightness(0)
+}
+
+body.light a:hover{
+    background-color: rgb(231, 231, 231);
+}

@@ -16,7 +16,7 @@ html{
 body{
     margin: 0;
     font-family: productsans;
-    height:300vh;
+    height:500vh;
 }
 
 section{
@@ -74,10 +74,10 @@ section p{
 }
 section a{
     display: block;
-    color:#ffffff;
+    color:#000000;
     border:none;
     border-radius: 100px;
-    background-color: rgb(32, 32, 32);
+    background-color: rgb(255, 255, 255);
     padding:15px;
     margin:50px;
     margin-left:2%;
@@ -91,23 +91,23 @@ section a{
     float:left;
     position:relative;
     bottom:2px;
+    filter:brightness(0)
 }
 
 a.vacio{
     all:unset;
-    text-decoration: underline cyan;
-    color:cyan;
+    color:#58A6FF;
 }
 
 a.vacio:hover{
     all:unset;
-    text-decoration: underline rgb(255, 255, 255);
-    color:rgb(255, 255, 255);
+    color: #58A6FF;
+    text-decoration: underline #58A6FF;
     cursor:pointer;
 }
 
 section a:hover{
-    background-color: rgb(41, 41, 41);
+    background-color: #d4d4d4;
 }
 
 article{

@@ -75,6 +75,11 @@ section a:hover{
     color:rgb(0, 0, 0);
 }
 
+section img{
+    float:right;
+    width: 8%;
+}
+
 article{
     background-color: rgb(18, 17, 39);
     border-radius: 35px;

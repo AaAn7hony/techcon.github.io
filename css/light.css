@@ -32,6 +32,7 @@ body.light{
     color: rgba(50,50,50);
 }
 
+
 body.light footer a:hover{
     background-color: rgba(0,0,0,0);
     color:black

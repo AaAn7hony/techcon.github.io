@@ -65,7 +65,7 @@ section p{
     white-space: pre-line;
     text-align: justify;
 }
-section a{
+section a, .contenedor a{
     float:left;
     display: block;
     color:#ffffff;
@@ -115,27 +115,34 @@ article p{
 
 
 .contenedor {
-  display: flex;
-  flex-wrap: wrap;         
-  justify-content: center; 
-  gap: 20px;               
-  padding: 20px;
-}
-
-.tarjeta{
-    border: 10px  solid rgb(49, 76, 102);
-    box-shadow: 0px 5px 25px rgb(64, 45, 82) ;
-    width: 400px;
-    height: 380px;
-    padding: 30px;
-    margin-bottom: 70px;
-    margin-right: 30px;
-    border-radius: 10px;
-
-}
-
-.tarjeta img{
-    width: 80%;
-    border-radius: 10px;
-}
+    display: flex;
+    flex-wrap: wrap;         
+    justify-content: center; 
+    gap: 20px;               
+    padding: 20px;
+    background-color: rgba(8,8,8,);
+  }
+  
+  .tarjeta{
+      border: 1px solid rgb(32, 32, 32);
+      background-color: rgba(14,14,14);
+      width: 400px;
+      height: 380px;
+      padding-bottom:80px;
+      margin-bottom: 20px;
+      margin-right: 30px;
+      border-radius: 10px;
+  }
+  
+  .tarjeta h2, .tarjeta p{
+      background-color: rgba(0,0,0,0);
+      padding:5%;
+  }
+  
+  .tarjeta img{
+      width: 100%;
+      padding:0;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+  }
 

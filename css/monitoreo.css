@@ -14,7 +14,7 @@ html{
 body{
     margin: 0;
     font-family: productsans;
-    height:500vh;
+    height:100%;
 }
 
 section{
@@ -162,7 +162,7 @@ article p{
 }
 
 .avlogo{
-    width: 30%;
+    width: 25%;
 }
 
 article{

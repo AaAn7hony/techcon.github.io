@@ -123,3 +123,16 @@ body.light #icon img{
 body.light a:hover{
     background-color: rgb(231, 231, 231);
 }
+
+body.light .contenedor{
+    background-color: white;
+}
+
+body.light .tarjeta{
+    background-color: white;
+}
+
+body.light .tarjeta a{
+    background-color: black;
+    color:white;
+}

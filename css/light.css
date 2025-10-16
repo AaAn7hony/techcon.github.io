@@ -28,6 +28,10 @@ body.light{
     text-shadow: none;
 }
 
+body.light #red{
+    color:rgb(175, 0, 0)
+}
+
 body.light 
 
 body.light em{

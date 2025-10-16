@@ -16,7 +16,7 @@ header.scroll{
 }
 
 header a{
-    float:right;
+    float:left;
     display: block;
     color: rgba(211,211,211);
     border:none;

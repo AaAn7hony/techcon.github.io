@@ -53,7 +53,7 @@ section a{
     float:left;
     display: block;
     color:#000000;
-    border:none;
+    border:1px solid rgb(214, 214, 214);
     border-radius: 100px;
     background-color: rgb(255, 255, 255);
     padding:15px;
@@ -92,10 +92,11 @@ section a:hover{
     background-image: url(../img/bg_aute.png);
     background-color: rgba(0,0,0,0.5);
     background-blend-mode: darken;
+    margin-bottom: 2%;
 }
 
 #monitoreo{
-    background-image:url(../img/bg_monitoreo.webp);
+    background-image:url(../img/bg_monitoreo.jpg);
     background-size: cover;
     background-color: rgba(0,0,0,0.5);
     background-blend-mode: darken;

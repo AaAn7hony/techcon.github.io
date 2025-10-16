@@ -73,7 +73,7 @@ section p{
 section a{
     display: block;
     color:#000000;
-    border:none;
+    border:1px solid rgb(214, 214, 214);
     border-radius: 100px;
     background-color: rgb(255, 255, 255);
     padding:15px;
@@ -157,7 +157,7 @@ article p{
 }
 
 .cert{
-    width: 25%;
+    width:250px;
     float:right;
 }
 

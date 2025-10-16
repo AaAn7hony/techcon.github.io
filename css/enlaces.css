@@ -84,7 +84,7 @@ section a:hover{
 }
 
 article{
-    background-color: rgb(18, 17, 39);
+    background-color: rgb(14,14,14);
     border-radius: 35px;
     padding:2px;
     margin:15px;
@@ -114,5 +114,28 @@ article p{
 
 
 
+.contenedor {
+  display: flex;
+  flex-wrap: wrap;         
+  justify-content: center; 
+  gap: 20px;               
+  padding: 20px;
+}
 
+.tarjeta{
+    border: 10px  solid rgb(49, 76, 102);
+    box-shadow: 0px 5px 25px rgb(64, 45, 82) ;
+    width: 400px;
+    height: 380px;
+    padding: 30px;
+    margin-bottom: 70px;
+    margin-right: 30px;
+    border-radius: 10px;
+
+}
+
+.tarjeta img{
+    width: 80%;
+    border-radius: 10px;
+}
 

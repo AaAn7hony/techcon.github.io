@@ -57,7 +57,7 @@ section a{
     float:left;
     display: block;
     color:#ffffff;
-    border:none;
+    border:1px solid rgb(214, 214, 214);
     border-radius: 100px;
     background-color: rgb(0,0,0,0);
     padding:15px;
@@ -159,6 +159,7 @@ h1{
   gap: 20px;               
   padding: 20px;
 }
+
 .tarjeta{
     border: 10px  solid rgb(49, 76, 102);
     box-shadow: 0px 5px 25px rgb(64, 45, 82) ;

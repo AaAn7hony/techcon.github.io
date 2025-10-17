@@ -48,6 +48,7 @@ section p{
     text-align: left;
     background-color: rgba(0,0,0,0);
     margin-bottom: 5%;
+    margin-left:2%;
     font-size: 20px;
     white-space: pre-line;
     text-align: justify;
@@ -68,6 +69,16 @@ section a{
 section a:hover{
     background-color: rgb(255, 255, 255);
     color:rgb(0, 0, 0);
+}
+
+section img{
+    width: 100%;
+}
+
+section #img1{
+    float:right;
+    width:30%;
+    padding-left:5%;
 }
 
 article{

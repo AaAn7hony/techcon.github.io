@@ -76,8 +76,13 @@ section a:hover{
 }
 
 section img{
+    width: 100%;
+}
+
+section #img1{
+    width: 20%;
+    padding-left:5%;
     float:right;
-    width: 8%;
 }
 
 article{

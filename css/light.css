@@ -32,7 +32,9 @@ body.light{
     color: rgba(50,50,50);
 }
 
-
+body.light footer{
+    border: solid 1px rgb(214,214,214)
+}
 body.light footer a:hover{
     background-color: rgba(0,0,0,0);
     color:black
@@ -80,14 +82,14 @@ body.light #no a:hover{
     background-color: rgb(214,214,214);
 }
 
-body.light section a{
+body.light section a, body.light article a{
     background-color: rgb(0, 0, 0);
     border: 1px solid rgb(10, 10, 10);
     color:white;
 }
 
-body.light section a:hover{
-    background-color: rgb(10, 10, 10);
+body.light section a:hover, body.light article a:hover{
+    background-color: rgb(22, 22, 22);
 }
 
 body.light #q{
@@ -125,12 +127,12 @@ body.light a:hover{
     background-color: rgb(231, 231, 231);
 }
 
-body.light .contenedor{
+body.light article, body.light .tarjeta, body.light .contenedor{
     background-color: white;
 }
 
-body.light .tarjeta{
-    background-color: white;
+body.light article{
+    border:solid 1px rgb(214,214,214);
 }
 
 body.light .tarjeta a{

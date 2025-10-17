@@ -1,8 +1,9 @@
 footer {
     align-items:center; 
-    background-color: #000000;
+    background-color: #030303;
     padding:2%;
     font-family: arial;
+    border: solid 1px rgb(22,22,22);
 }
 
 .footer-links {
@@ -12,7 +13,7 @@ footer {
     margin-bottom:1%;
 }
 
-footer a {
+footer a{
     color:rgb(184, 184, 184);
     text-decoration: none;
     font-size: 14px;

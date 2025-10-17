@@ -105,7 +105,7 @@ a.vacio:hover{
 }
 
 section a:hover{
-    background-color: #d4d4d4;
+    background-color: rgb(214, 214, 214);
 }
 
 article{
